@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testRunner" project="cermat.com" tests="6" started="6" failures="0" errors="0" ignored="6">
+  <testsuite name="TestRunner.testRunner" time="0.0">
+    <testsuite name="Feature: Sign up member" time="0.0">
+      <testsuite name="Scenario: Adding new member" time="0.0" incomplete="true">
+        <skipped/>
+        <testcase name="Given Launch browser" classname="Scenario: Adding new member" time="0.0" ignored="true"/>
+        <testcase name="And Open url &quot;https://www.cermati.com/app/gabung&quot;" classname="Scenario: Adding new member" time="0.0" ignored="true"/>
+        <testcase name="And enter the required information" classname="Scenario: Adding new member" time="0.0" ignored="true"/>
+        <testcase name="When Click on Daftar button" classname="Scenario: Adding new member" time="0.0" ignored="true"/>
+        <testcase name="Then We can view the verification methods &quot;Pilih Metode Verifikasi&quot;" classname="Scenario: Adding new member" time="0.0" ignored="true"/>
+        <testcase name="And close browser" classname="Scenario: Adding new member" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

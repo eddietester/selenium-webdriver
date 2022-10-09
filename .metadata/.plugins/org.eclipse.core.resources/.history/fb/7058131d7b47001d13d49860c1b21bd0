@@ -1,0 +1,38 @@
+package StepDefinition;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import PageObject.signUpPage;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class testSteps extends baseClass {
+
+	@Given("^Launch browser$")
+	public void launch_browser() throws Throwable {
+	   
+	}
+
+	@Given("^Open url \"([^\"]*)\"$")
+	public void open_url(String arg1) throws Throwable {
+	    
+	}
+
+	@Given("^enter the required information$")
+	public void enter_the_required_information() throws Throwable {
+	    
+	}
+
+	@When("^Click on Daftar button$")
+	public void click_on_Daftar_button() throws Throwable {
+	    
+	}
+
+	@Then("^We can view the verification methods$")
+	public void we_can_view_the_verification_methods() throws Throwable {
+	    
+	}
+
+}

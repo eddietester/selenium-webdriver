@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testRunner" project="cermat.com" tests="5" started="5" failures="0" errors="2" ignored="4">
+  <testsuite name="TestRunner.testRunner" time="0.002">
+    <testsuite name="Feature: Sign up member" time="0.002">
+      <testsuite name="Scenario: Adding new member" time="0.001" incomplete="true">
+        <error>java.lang.NullPointerException&#13;
+	at StepDefinition.testSteps.launch_browser(testSteps.java:20)&#13;
+	at ✽.Given Launch browser(./feature/signup.feature:4)&#13;
+&#13;
+</error>
+        <testcase name="Given Launch browser" classname="Scenario: Adding new member" time="0.001">
+          <error>java.lang.NullPointerException&#13;
+	at StepDefinition.testSteps.launch_browser(testSteps.java:20)&#13;
+	at ✽.Given Launch browser(./feature/signup.feature:4)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="And Open url &quot;https://www.cermati.com/app/gabung&quot;" classname="Scenario: Adding new member" time="0.0" ignored="true"/>
+        <testcase name="And enter the required information" classname="Scenario: Adding new member" time="0.0" ignored="true"/>
+        <testcase name="When Click on Daftar button" classname="Scenario: Adding new member" time="0.0" ignored="true"/>
+        <testcase name="Then We can view the verification methods" classname="Scenario: Adding new member" time="0.001" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,13 @@
+package PageObject;
+
+import org.openqa.selenium.WebDriver;
+
+public class signUpPage {
+	
+	public WebDriver ldriver;
+	
+	public signUpPage(WebDriver rdriver){
+		ldriver = rdriver;
+	}
+
+}

@@ -1,0 +1,29 @@
+package StepDefinition;
+
+import org.apache.commons.lang.RandomStringUtils;
+import org.openqa.selenium.WebDriver;
+
+import PageObject.signUpPage;
+
+public class baseClass {
+	
+	public WebDriver driver;
+	public signUpPage sp;
+	
+	
+	public String randomEmail(){
+		String StringEmail = RandomStringUtils.randomAlphanumeric(8);
+		return (StringEmail);
+	}
+	
+	public String randomFirstName(){
+		String StringFirstName = RandomStringUtils.randomAlphabetic(5);
+		return (StringFirstName);
+	}
+	
+	public String randomLastName(){
+		String StringLastName = RandomStringUtils.randomAlphabetic(8);
+		return (StringLastName);
+	}
+
+}

@@ -1,0 +1,36 @@
+package PageObject;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+public class signUpPage {
+	
+	public WebDriver ldriver;
+	
+	public signUpPage(WebDriver rdriver){
+		ldriver = rdriver;
+		PageFactory.initElements(ldriver, this);
+	}
+	
+	// find element
+	By txtEmail = By.name("email");
+	By txtPhoneNo = By.id("mobilePhone");
+	By txtPassword = By.name("password");
+	By txtConfirmPassword = By.cssSelector("#confirmPassword");
+	By txtFirstName = By.xpath("//input[@id='firstName']");
+	By txtLastName = By.xpath("//input[@id='lastName']");
+	By txtCity = By.xpath("//input[@id='lastName']");
+	By chkTermCondition = By.id("terms-and-condition");
+	By btnRegister = By.xpath("//body/div[@id='__next']/main[1]/div[1]/div[2]/div[2]/div[1]/button[1]");
+	
+	// action method
+	public void setEmail(String email){
+		ldriver.findElement(txtEmail).sendKeys(email);
+	}
+	
+	public void setPassword(String pwd){
+		ldriver.findElement(txtPassword).sendKeys(pwd);
+	}
+
+}

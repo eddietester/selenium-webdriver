@@ -1,0 +1,12 @@
+package StepDefinition;
+
+import org.openqa.selenium.WebDriver;
+
+import PageObject.signUpPage;
+
+public class baseClass {
+	
+	public WebDriver driver;
+	public signUpPage sp;
+
+}

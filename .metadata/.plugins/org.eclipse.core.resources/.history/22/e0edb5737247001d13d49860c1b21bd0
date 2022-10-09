@@ -1,0 +1,19 @@
+package PageObject;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+public class signUpPage {
+	
+	public WebDriver ldriver;
+	
+	public signUpPage(WebDriver rdriver){
+		ldriver = rdriver;
+		PageFactory.initElements(ldriver, this);
+	}
+	
+	// find element
+	By txtEmail = By.xpath("//input[@id='email']");
+
+}

@@ -1,0 +1,41 @@
+package StepDefinition;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import PageObject.signUpPage;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class testSteps extends baseClass {
+
+	@Given("^Launch browser$")
+	public void launch_browser() throws Throwable {
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//driver/chromedriver.exe");
+	    driver = new ChromeDriver();
+	    sp = new signUpPage(driver);
+	    driver.manage().window().maximize();
+	}
+
+	@And("^Open url https://www\\.cermati\\.com/app/gabung$")
+	public void open_url_https_www_cermati_com_app_gabung() throws Throwable {
+	    
+	}
+
+	@And("^enter the required information$")
+	public void enter_the_required_information() throws Throwable {
+	    
+	}
+
+	@When("^Click on Daftar button$")
+	public void click_on_Daftar_button() throws Throwable {
+	    
+	}
+
+	@Then("^We can view the verification methods$")
+	public void we_can_view_the_verification_methods() throws Throwable {
+	    
+	}
+
+}
